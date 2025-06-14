@@ -75,13 +75,14 @@ seaborn
 
 Gezielt eingeführte Features mit physikalischem Bezug:
 
-| Feature                  | Formel                         | Bedeutung                       |
-| ------------------------ | ------------------------------ | ------------------------------- |
-| `Power`                  | Pressure × Flow Rate           | Hydraulische Leistung           |
-| `Vibration_per_hour`     | Vibration / Operational\_Hours | Belastungsrate                  |
-| `Efficiency`             | Power / RPM                    | Betriebseffizienz               |
-| `Cumulative_Load`        | Vibration × Operational\_Hours | Gesamtbelastung über Zeit       |
-| `Log_Vibration_per_hour` | log(1 + Vibration\_per\_hour)  | Skalierung zur Varianzreduktion |
+| Feature                  | Formel                           | Bedeutung                            |
+|--------------------------|----------------------------------|--------------------------------------|
+| Power                    | Pressure × Flow Rate             | Hydraulische Leistung                |
+| Vibration_per_hour       | Vibration / Operational_Hours    | Belastungsrate                       |
+| Efficiency               | Power / RPM                      | Betriebseffizienz                    |
+| Cumulative_Load          | Vibration × Operational_Hours    | Gesamtbelastung über Zeit           |
+| Log_Vibration_per_hour   | log(1 + Vibration_per_hour)      | Skalierung zur Varianzreduktion     |
+
 
 Diese Features führten zu einer **deutlich erhöhten Korrelation mit dem Wartungsbedarf** (sichtbar in Korrelationsmatrizen vor/nach Feature Engineering).
 

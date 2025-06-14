@@ -48,8 +48,6 @@ Zusätzlich enthält der Datensatz die Zielvariable `Maintenance_Flag` (0 = kein
 ##  Installation
 
 ```bash
-git clone https://github.com/dein-user/pumpen-maintenance.git
-cd pumpen-maintenance
 
 python -m venv venv
 source venv/bin/activate   # Linux/macOS

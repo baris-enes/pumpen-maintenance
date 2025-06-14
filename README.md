@@ -88,7 +88,7 @@ Diese Features führten zu einer **deutlich erhöhten Korrelation mit dem Wartun
 
 ### Clustering & Label-Simulation
 
-Da das ursprüngliche Label unbrauchbar war, wurde ein **domänengetriebenes Pseudo-Labeling** durchgeführt:
+Da das ursprüngliche Label unbrauchbar war, wurde ein **simuliertes Labeling durch domänengetriebene Regeln** durchgeführt:
 
 - **PCA → KMeans mit 3 Clustern**
 - Neue Zielvariable: `Maintenance_Flag_Sim_Final`
@@ -153,5 +153,5 @@ Daher sind vorausschauende Wartungsstrategien essenziell. Dieses Projekt zeigt, 
 
 ---
 
-*© 2025 Enes Baris – basierend auf einem synthetischen Pumpendatensatz*
+*© 2025 Enes Baris – Die Daten basieren auf einem simulierten Pumpenbetrieb mit realitätsnahen, aber synthetisch erzeugten Zustandsparametern*
 
